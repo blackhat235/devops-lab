@@ -11,12 +11,5 @@ This project demonstrates a cloud-native trading bot infrastructure using:
 
 Architecture:
 
-Trading Bot
-↓
-Docker
-↓
-Kubernetes
-↓
-Monitoring Stack
-↓
-Alerting
+Trading Bot -> Docker -> Kubernetes -> Monitoring Stack -> Alerting
+
