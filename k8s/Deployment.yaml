@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: trading-bot
-        image: trading-bot:1.0
+        image: trading-bot:2.0
         ports:
          - containerPort: 8000
         imagePullPolicy: Never
