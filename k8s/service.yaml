@@ -6,7 +6,10 @@ spec:
   selector:
     app: trading-bot
   ports:
-  - protocol: TCP
+  - name: http
     port: 80
     targetPort: 80
-  type: ClusterIP
+
+  - name: metrics
+    port: 8000
+    targetPort: 8000
